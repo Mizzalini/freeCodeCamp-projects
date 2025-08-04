@@ -12,6 +12,6 @@ See here:
 
 <p align="left">
   <a href='https://htmlpreview.github.io/?https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html'>
-    <img width="48%" src="../assets/images/single-page-cv.png" alt="single page cv" />
+    <img width="48%" src="../assets/images/survey-form.png" alt="Survey Form" />
   </a>
 </p>
