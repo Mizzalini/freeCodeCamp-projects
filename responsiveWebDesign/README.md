@@ -11,7 +11,7 @@ See here:
 [Survey Form](https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html)
 
 <p align="left">
-  <a href='[/Frontend Projects/01-single-page-cv/](https://htmlpreview.github.io/?https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html)'>
-    <img width="48%" src="./assets/images/single-page-cv.png" alt="single page cv" />
+  <a href='https://htmlpreview.github.io/?https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html'>
+    <img width="48%" src="../assets/images/single-page-cv.png" alt="single page cv" />
   </a>
 </p>
