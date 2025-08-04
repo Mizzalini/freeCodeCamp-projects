@@ -5,3 +5,7 @@ This folder contains projects built following the freeCodeCamp [Responsive Web D
 ## Projects List
 
 [Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+
+
+See here:
+[Survey Form](https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html)
