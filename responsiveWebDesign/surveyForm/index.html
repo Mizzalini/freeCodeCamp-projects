@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the form</p>
+    <form id="survey-form">
+      <fieldset>
+        <div class="form-row">
+          <label id="name-label" for="name">Name: <input id="name" type="text" name="name" placeholder="John Dean" required /></label>
+          <label id="email-label" for="email">Email: <input id="email" type="email" name="email" placeholder="john@dean.com" required /></label>
+          <label id="number-label" for="number">Age: <input id="number" type="number" name="age" min="13" max="120" placeholder="13-120"/></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Select your interest:
+          <select id="dropdown" name="hobbies">
+            <option value="">None</option>
+            <option value="1">Sports</option>
+            <option value="2">Reading</option>
+            <option value="3">Studying</option>
+            <option value="4">Gardening</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select what stage of education you're currently at</legend>
+        <label for="high-school"><input id="high-school" type="radio" name="education" class="inline" value="1" checked /> High-school</label>
+        <label for="college"><input id="college" type="radio" name="education" class="inline" value="2" /> College</label>
+        <label for="uni"><input id="uni" type="radio" name="education" class="inline" value="3" /> University</label>
+        <label for="working"><input id="working" type="radio" name="education" class="inline" value="4" /> Working</label>
+        <label for="education-other"><input id="education-other" type="radio" name="education" class="inline" value="0" /> Other</label>
+      </fieldset>
+      <fieldset>
+        <legend>What mode of transport do you use regularly?</legend>
+          <label for="walk"><input id="walk" type="checkbox" name="transport" class="inline" value="1" /> Walk</label>
+          <label for="bike"><input id="bike" type="checkbox" name="transport" class="inline" value="2" /> Bicycle</label>
+          <label for="car"><input id="car" type="checkbox" name="transport" class="inline" value="3" /> Car</label>
+          <label for="bus"><input id="bus" type="checkbox" name="transport" class="inline" value="4" /> Bus</label>
+          <label for="coach"><input id="coach" type="checkbox" name="transport" class="inline" value="5" /> Coach</label>
+          <label for="train"><input id="train" type="checkbox" name="transport" class="inline" value="6" /> Train</label>
+          <label for="transport-other"><input id="transport-other" type="checkbox" name="transport" class="inline" value="0" checked/> Other</label>
+      </fieldset>
+      <fieldset>
+        <label for="comments">Additional comments: 
+          <textarea id="comments" name="additional-comments" rows="3" cols="30" placeholder="Additional information..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
