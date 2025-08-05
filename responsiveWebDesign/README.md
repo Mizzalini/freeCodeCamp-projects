@@ -9,7 +9,7 @@ This folder contains projects built following the freeCodeCamp [Responsive Web D
 Click the any of the images below to be taken to a live demo of the project:
 
 <p align="left">
-  <a href="https://htmlpreview.github.io/?https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html" target="_blank">
+  <a href="https://htmlpreview.github.io/?https://github.com/Mizzalini/freeCodeCamp-projects/blob/main/responsiveWebDesign/surveyForm/index.html">
     <img width="48%" src="../assets/images/survey-form.png" alt="Survey Form" />
   </a>
 </p>
